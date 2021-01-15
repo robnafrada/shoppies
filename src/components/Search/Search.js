@@ -5,7 +5,6 @@ const Search = () => {
     const [movies, setMovies] = useState([]);
     const [query, setQuery] = useState("");
     const cors = 'https://cors-anywhere.herokuapp.com/'
-    const apikey = 'c259ad41'
 
     const search = (e) => {
         e.preventDefault();
